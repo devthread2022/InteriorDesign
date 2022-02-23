@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Appointment"
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/left_arrow"
+            android:layout_gravity="center|start"/>
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/notification"
+            android:layout_gravity="center|end"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Meet a designer"
+        android:textSize="22sp"
+        android:fontFamily="@font/open_sans_semibold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/plane_back"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:fontFamily="@font/open_sans"
+            android:padding="10dp"
+            android:hint="Full name"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5601D" />
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:fontFamily="@font/open_sans"
+            android:padding="10dp"
+            android:hint="Mobile number"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5601D" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:fontFamily="@font/open_sans"
+            android:padding="10dp"
+            android:hint="Email"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5601D" />
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:fontFamily="@font/open_sans"
+            android:padding="10dp"
+            android:hint="State name"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5601D" />
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/edittext"
+            android:textColor="@color/black"
+            android:fontFamily="@font/open_sans"
+            android:padding="10dp"
+            android:hint="City name"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5601D" />
+        <CheckBox
+            android:id="@+id/whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:buttonTint="#FF9800"
+            android:fontFamily="@font/open_sans"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="You can connect me on WhatsApp"/>
+        <LinearLayout
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/background_signin"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Submit"
+                android:textAllCaps="true"
+                android:fontFamily="@font/open_sans"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

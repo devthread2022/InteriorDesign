@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730833529094",
+    "project_id": "interior-d466b",
+    "storage_bucket": "interior-d466b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730833529094:android:f123d4095cb6a455061687",
+        "android_client_info": {
+          "package_name": "com.jvt.interior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730833529094-65lmbghvilq4qq32ld84mq3at9utog09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnPz3uz2YTCwqgtFuLSazOnODDzxbCGSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730833529094-65lmbghvilq4qq32ld84mq3at9utog09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
